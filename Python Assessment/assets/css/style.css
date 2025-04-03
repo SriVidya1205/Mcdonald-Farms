@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff; /* Lilac background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #6a0dad; /* Purple header */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #8f5bb4;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #a5d6a7;
+    border-radius: 5px;
+}
+
+/* Page Content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-left: 10px solid #c8e6c9; /* Light Green accent border */
+    border-right: 10px solid #c8e6c9;
+}
+
+/* Image Styles */
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Make images on other pages smaller */
+.image-section img.small {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #4a0072;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn-green {
+    background-color: #c8e6c9; /* Light Green button */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn-green:hover {
+    background-color: #a5d6a7;
+}
